@@ -15,7 +15,52 @@
       <h1 class="title">
         Log an exit
       </h1>
-      <h2>Or log an <a href="entry.html">entry</a> instead <h2></h2>
+      <h2>Or log an <a href="entry.html">entry</a> instead</h2>
+
+
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Name" name="name" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Family name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="family name" name="family name" autocomplete="off">
+        </div>
+      </div>
+
+       <div class="field">
+        <label class="label">Company</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="company name" name="company" autocomplete="off">
+        </div>
+      </div>
+
+
+      <div class="field">
+        <label class="label">Signature</label>
+        <div class="control">
+          <canvas id="signature" height="250" style="width: 100%; border: 1px solid black; touch-action: none; user-select: none;" class="lower-canvas"></canvas>
+        </div>
+      </div>
+
+
+
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link" id="submit-btn">Submit</button>
+        </div>
+        <div class="control">
+          <button class="button is-link is-light" id="clear-btn">Reset</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/fabric.min.js"></script>
+  <script src="js/form_submit.js"></script>
     </div>
   </section>
 </body>
