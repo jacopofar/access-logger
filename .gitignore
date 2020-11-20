@@ -1,2 +1,4 @@
 # python virtualenv
 .venv
+# output data
+data/
