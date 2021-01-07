@@ -79,4 +79,4 @@ if __name__ == "__main__":
         "  gunicorn -w 4 -b '0.0.0.0:4242' access_logger:app"
         '\n-------  \n'
     )
-    app.run(port=port)
+    app.run(host='0.0.0.0', port=port)
